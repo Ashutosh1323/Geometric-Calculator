@@ -5,7 +5,7 @@ Setup and Instructions
 
 
 
-Setup and Instructions - 
+#Setup and Instructions - 
 Dependencies:
 
 Ensure Python 3.7 or higher is installed.
@@ -30,7 +30,7 @@ Follow the on-screen instructions to define shapes and perform measurements.
 
 
 
-Assumptions and Known Issues - 
+#Assumptions and Known Issues - 
 The system does not validate if shapes are truly geometric (e.g., for lines and rectangles).
 Only simple commands like define and measure are implemented. Complex inputs may require additional error handling.
 Currently, this application only supports 2D geometries.
@@ -40,7 +40,7 @@ Currently, this application only supports 2D geometries.
 
 
 
-Challenges Faced - 
+#Challenges Faced - 
 Designing a clear, interactive command-line interface.
 Managing errors effectively to provide meaningful feedback when incorrect inputs are given.
 Implementing robust parsing for user commands while ensuring code readability.
@@ -49,6 +49,6 @@ Implementing robust parsing for user commands while ensuring code readability.
 
 
 
-Additional Notes - 
+#Additional Notes - 
 The application can be extended to support additional shapes like polygons or 3D objects.
 Testing with edge cases like negative inputs or zero values helped improve validation.
